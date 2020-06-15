@@ -3,6 +3,7 @@ import os
 import requests
 import requests_cache
 import time
+from IPython.core.display import clear_output
 
 API_KEY = os.environ.get('LASTFM_API_KEY')
 USER_AGENT = 'Dataquest'
